@@ -8,5 +8,6 @@ export function Providers({ children }: { children: React.ReactNode }) {
     <>
     <Nav />
     {children}
+    
     </></ChakraProvider>
 }

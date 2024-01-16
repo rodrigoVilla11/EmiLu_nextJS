@@ -5,6 +5,7 @@ import {
   Box
 } from '@chakra-ui/react'
 import ProductsCards from '../ProductsCards/ProductsCards';
+import Footer from "@/components/Organisms/Footer/Footer"
 import ConfidentBar from '../ConfidentBar/ConfidentBar';
 import ClientsBar from '../ClientsBar/ClientsBar';
 
@@ -22,6 +23,7 @@ export default function LandingPage() {
             <ConfidentBar />
             <ProductsCards />
             <ClientsBar />
+            <Footer />    
             </Box>
           </Box>
     )
